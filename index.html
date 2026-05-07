@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lo Veo y Lo Quiero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+<header>
+        <a href="#">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <img src="img/logo.jpeg" class="logo">
+    <nav>
+</header>
+
+<section class="principal">
+    <h2>Lo Veo Y Lo Quiero💄</h2>
+    <section class="principal">
+
+    <img src="img/portada.jpeg" class="portada">
+
+    <h2 id="saludo">Descubrí tu belleza 💖</h2>
+
+    <input type="text" id="nombreInput" placeholder="Escribí tu nombre">
+
+    <button onclick="saludar()">Personalizar</button>
+
+</section>
+    
+
+<section id="productos">
+    <h2>Productos</h2>
+
+    <div class="card">
+
+    <a href="maquillaje.html">
+        <h3>Maquillaje</h3>
+        <img src="img/maquillaje2.jpeg">
+    </a>
+
+    <p>Labiales-Brochas-Sombras</p>
+
+</div>
+
+
+<div class="card">
+
+    <a href="accesorios.html">
+        <h3>Accesorios</h3>
+        <img src="img/accesorios4.jpeg">
+    </a>
+
+    <p>Aros-Collares-Pulseras-Gorras y mas</p>
+
+</div>
+
+
+<div class="card">
+
+    <a href="skincare.html">
+        <h3>Skincare</h3>
+        <img src="img/skincare1.jpeg">
+    </a>
+
+    <p>Cuidado facial</p>
+
+</div>
+ <div class="ver-mas">
+        </button>
+    </div>
+
+</section>
+
+    <button onclick="mostrarInfo()">Ver más✨</button>
+    <p id="infoExtra" style="display:none;">
+        ✨ Bienvenidos a nuestro espacio de belleza ✨
+Descubrí todo lo que necesitás en un solo lugar: accesorios que marcan tendencia,
+ maquillaje para resaltar tu esencia y productos de skincare que cuidan tu piel como se merece 💄🧴
+Nos encanta ayudarte a sentirte única, segura y radiante todos los días. Trabajamos con dedicación para ofrecerte variedad, calidad y las últimas novedades en belleza.
+💖 Porque cada detalle cuenta, y vos sos la protagonista.
+    </p>
+</section>
+
+<section id="contacto">
+
+    <h2>Contacto</h2>
+
+    <p>
+        📷 Instagram:
+        <a href="https://www.instagram.com/loveoyloquiero.simoca?igsh=MWs5ZWVoMjljOWdkYQ==" target="_blank">
+            @loveoyloquiero
+        </a>
+    </p>
+
+    <a href="https://wa.me/3813647466" target="_blank">
+        <button>Enviar WhatsApp</button>
+    </a>
+
+    <br><br>
+
+    <form onsubmit="return validarFormulario()">
+
+        <input type="text" id="nombre" placeholder="Nombre">
+
+        <input type="email" id="email" placeholder="Email">
+
+        <textarea placeholder="Mensaje"></textarea>
+
+        <br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</section>
+
+<button onclick="modoOscuro()">Modo oscuro</button>
+
+<footer>
+    <p>© 2026 Lo Veo y Lo Quiero</p>
+</footer>
+
+<a href="maquillaje.html">
+    <h3>Maquillaje</h3>
+</a>
+
+<a href="accesorios.html">
+     <h3>Accesorios</h3>
+</a>
+
+<a href="skincare.html">
+    <h3>Skincare</h3>
+</a>

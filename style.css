@@ -1,0 +1,149 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f1b2c7;
+}
+
+
+header {
+    background-color: #f5548a;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: hotpink;
+}
+
+.principal {
+    text-align: center;
+    padding: 30px;
+    .portada {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+}
+
+.card {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card {
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 15px;
+    width: 250px;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #ff99bb;
+    padding: 10px;
+}
+
+.dark {
+    background-color: #222;
+    color: white;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.logo {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#productos {
+    text-align: center;
+}
+button {
+    background-color: #ff66a3;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+.titulo-pagina {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor-productos {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+.volver {
+    text-align: center;
+    margin: 30px;
+}
+
+.volver a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.volver a:hover {
+    color: hotpink;
+}
+#contacto {
+    text-align: center;
+    padding: 30px;
+}
